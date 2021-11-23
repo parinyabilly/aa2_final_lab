@@ -1,0 +1,11 @@
+---
+instances:
+  - name: osp
+    keypair: 1bbe-keypair
+    image: rhel-8.3
+    flavor: GLOBAL-CPU_4_Memory_8192_Disk_30_flavor
+    security_group: 1bbe-HostSG
+    internal_network: 1bbe-dev-network
+    metadata:
+      AnsibleGroup: osp_instances
+      deployment_name: dev

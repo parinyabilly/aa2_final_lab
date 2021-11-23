@@ -1,0 +1,6 @@
+---
+- name: Play to automate process
+  hosts: all
+  become: yes
+  roles:
+    - satellite
