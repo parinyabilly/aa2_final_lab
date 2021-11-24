@@ -1,7 +1,0 @@
----
-- name: Create OpenStack Instances
-  hosts: localhost
-  connection: local
-  gather_facts: false
-  roles:
-    - openstack-instances
