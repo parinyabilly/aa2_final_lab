@@ -35,3 +35,9 @@
     activationkey: "{{ satellite_activationkey }}"
     org_id: "{{ satellite_org }}"
     auto_attach: true
+
+- name: install firewalld
+  yum:
+    name: firewalld
+    state: lastest
+
